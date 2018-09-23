@@ -1,0 +1,46 @@
+{
+    "name": "spf/pt",
+    "description": "laravel package development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "spfroc",
+            "email": "spf_roc@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">7.0",
+        "guzzlehttp/guzzle": "6.3"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "orchestra/testbench": "^3.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Adobesun\\Pt\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Adobesun\\Pt\\Test\\": "tests/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adobesun\\Pt\\PtServiceProvider"
+            ],
+
+            "aliases": [
+                "Adobesun\\Pt\\PtFacade"
+            ]
+        }
+    }
+}
