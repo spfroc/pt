@@ -1,8 +1,7 @@
 <?php
 
-namespace Adobesun\PtServiceProvider;
+namespace Adobesun\Pt;
 
-use Adobesun\Pt\Pt;
 use Illuminate\Support\ServiceProvider;
 
 class PtServiceProvider extends ServiceProvider

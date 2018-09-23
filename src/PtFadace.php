@@ -1,6 +1,6 @@
 <?php
 
-namespace Adobesun\PtFacade;
+namespace Adobesun\Pt;
 
 use Illuminate\Support\Facades\Facade;
 
