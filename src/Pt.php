@@ -1,6 +1,8 @@
 <?php
 
 namespace Adobesun\Pt;
+define('AOP_SDK_WORK_DIR', './tmp');
+
 require_once 'AopSdk.php';
 
 class Pt
