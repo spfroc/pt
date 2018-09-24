@@ -1,10 +1,19 @@
 <?php
 
 namespace Adobesun\Pt;
+require_once 'AopSdk.php';
 
 class Pt
 {
-    public static function add($a, $b)
+
+
+
+    public function __construct()
+    {
+
+    }
+
+    public function add($a, $b)
     {
         return $a + $b;
     }
